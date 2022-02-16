@@ -64,6 +64,8 @@ pwd         # untuk mengetahui sekarang ada di direktori apa
 code .
 ```
 16. Install extension `Python` agar coding di Python menjadi nyaman
+![image](https://user-images.githubusercontent.com/55247343/154283118-605b924e-c427-48a9-a920-22151cd44d31.png)
+![image](https://user-images.githubusercontent.com/55247343/154283904-9160a0d5-8510-4dfe-a31b-4750c1b0ae42.png)
 17. Cara menjalankan program: Buka Git Bash yang tadi (dalam kondisi virtual environment sudah aktif), lalu jalankan
 ```
 python <nama folder>
