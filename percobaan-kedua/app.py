@@ -1,4 +1,4 @@
-import cv2 as cv
+import cv2
 import numpy as np
 import scipy.ndimage
 
@@ -12,9 +12,9 @@ def main():
     img_path = "/home/yeyee/Pictures/2592b4393564b7f08636f98bbe52fb9d.png"
 
     # load image (return value adalah array numpy)
-    img_bgr: np.ndarray = cv.imread(img_path)
+    img_bgr: np.ndarray = cv2.imread(img_path)
 
-    img_gray: np.ndarray = cv.cvtColor(img_bgr, cv.COLOR_BGR2GRAY)
+    img_gray: np.ndarray = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2GRAY)
 
     # buat filter dengan size 5x5
     # lalu dibagi 25 untuk normalisasi
@@ -30,8 +30,8 @@ def main():
     # show image di window
     window_title = "Program Pertama"
 
-    cv.imshow(window_title, img_stacked)
+    cv2.imshow(window_title, img_stacked)
 
     # on close
-    cv.waitKey()
-    cv.destroyAllWindows()
+    cv2.waitKey()
+    cv2.destroyAllWindows()
